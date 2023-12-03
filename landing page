@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Landing Page with Profile Look</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>yamaha bike showroom </h1>
+      <nav>
+        <ul>
+          <li><a href="#features">Features</a></li>
+          <li><a href="#pricing">Pricing</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section id="hero" class="hero">
+      <div class="container">
+        <div class="profile">
+          <img src="C:\Users\sona\Downloads\maxresdefault.jpg" alt="Profile Picture"
+          width="1500" height="1500">
+          <h2>Welcome to Our Product</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <a href="#contact" class="btn">Get Started</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="features" class="features">
+      <div class="container">
+        <h2>Features</h2>
+        <div class="feature-item">
+          <h3>Feature 1</h3>
+          <p>Yamaha is a Japanese multinational corporation and it's known for that produces a wide range of products.</p>
+        </div>
+        <div class="feature-item">
+          <h3>Feature 2</h3>
+          <p>it's offering options like best mileage, most expensive, and lowest price. </p>
+        </div>
+        <div class="feature-item">
+          <h3>Feature 3</h3>
+          <p> built to dominate the highways, off roads, and racetracks with their speed, engine power, and advanced features. </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="pricing" class="pricing">
+      <div class="container">
+        <h2>Pricing</h2>
+        <div class="price-item">
+          <h3>Plan 1</h3>
+          <p>Yamaha MT-15	₹ 1.69 - 1.74 Lakhs</p>
+          <span></span>
+        </div>
+        <div class="price-item">
+          <h3>Plan 2</h3>
+          <p>Yamaha R15 V4	₹ 1.82 - 1.97 Lakhs</p>
+          <span></span>
+        </div>
+        <div class="price-item">
+          <h3>Plan 3</h3>
+          <p>Yamaha Aerox 155	₹ 1.47 - 1.48 Lakhs</p>
+          <span></span>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact">
+      <div class="container">
+        <h2>Contact Us</h2>
+        <form>
+          <input type="text" placeholder="Name">
+          <input type="email" placeholder="Email">
+          <textarea placeholder="Message"></textarea>
+          <button type="submit" class="btn">Send</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2023 Company Name. All Rights Reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>
+
